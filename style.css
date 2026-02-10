@@ -1,6 +1,4 @@
-.padding-bottom{
-    padding-bottom: 500px;
-}
+
 
 *{
     margin: 0;
@@ -429,4 +427,73 @@ font-family: "Montserrat";
         letter-spacing: 1.1px;
         
         text-transform: uppercase;
+}
+
+/* +===================  footer ========================*/
+
+.footer-section{
+    width: 1176px;
+    margin: 81px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-section .footer-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-section .footer-col .footer-col-heading{
+    font-family: "Montserrat";
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 24.2px;
+        letter-spacing: 1.65px;
+        text-align: center;
+        text-transform: uppercase;
+}
+.footer-col-items{
+    margin-top: 13px;
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+        
+}
+.footer-col-items .footer-col-item{
+    font-family: "Montserrat";
+        font-weight: 400;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 27.02px;
+        letter-spacing: 0%;
+        text-align: center;
+}
+.footer-col-items .footer-col-item a{
+    text-decoration: none;
+    color: #777777;
+}
+.footer-copyright{
+    display: flex;
+    justify-content: center;
+    margin: 80px auto 60px;
+}
+
+.footer-copyright .left{
+    font-family: "Helvetica";
+        font-weight: 400;
+        font-style: normal;
+        font-size: 11px;
+        letter-spacing: 1.65px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #777777;
+}
+.footer-copyright .right{
+    font-family: "Helvetica";
+        font-weight: 400;
+        font-style: normal;
+        font-size: 10px;
+        letter-spacing: 1.65px;
+        text-transform: uppercase;
+        color: #333333;
 }
