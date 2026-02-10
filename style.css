@@ -283,7 +283,7 @@ body{
 /* +===================  cta ========================*/
 
 
-.cta-container{
+.cta-banner{
 
     position: relative;
         height: 630px;
@@ -303,7 +303,7 @@ body{
 
 }
 
-.signup-container{
+.cta-signup-container{
     width: 572px;
     height: 145px;
     display: flex;
@@ -313,7 +313,7 @@ body{
     right: 52px;
 }
 
-.signup-container .signup-text{
+.cta-signup-container .cta-signup-text{
     font-family: "Montserrat";
         font-weight: 700;
         font-style: Bold;
@@ -322,7 +322,7 @@ body{
         letter-spacing: 0%;
         color: #FFFFFF;
 }
-.signup-container .signup-button{
+.cta-signup-container .cta-signup-button{
     width: 204px;
         height: 50px;
         background-color: #000000;
@@ -331,7 +331,7 @@ body{
             align-items: center;
         
 }
-.signup-container .signup-button .signup-button-text{
+.cta-signup-container .cta-signup-button .cta-signup-button-text{
 font-family: "Montserrat";
     font-weight: 700;
     font-style: Bold;
@@ -342,4 +342,91 @@ font-family: "Montserrat";
     text-transform: capitalize;
     color: #FFFFFF;
     
+}
+.cta-container .cta-gallery{
+    margin: 40px auto 120px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+}
+.cta-container .cta-gallery .gallery-wrapper{
+    width: 1375px; 
+    display: flex;
+    flex-wrap: nowrap;
+}
+.cta-container .cta-gallery .gallery-wrapper img{
+    width: 210px;
+    height: 210px;
+    margin-left: 23px;
+    
+}
+.cta-container .cta-gallery img:first-child{
+    margin-left: 0px;
+}
+
+.line{
+    margin: 0px auto 0px;
+    width: 1176px;
+        height: 1px;
+        color: #333333;
+        text-align: center;
+
+}
+
+/* +===================  signup ========================*/
+
+.signup-container{
+    height: 162px;
+    width: 1176px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.signup-container .socials{
+    
+    margin-left: 79px;
+}
+.signup-container .email-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 392px;
+    gap: 17px;
+}
+.signup-container .email-container .signup-text{
+    font-family: "Montserrat";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 15px;
+}
+.signup-container .email-container .submit-area{
+    display: flex;
+    justify-content: space-between;
+}
+.signup-container .email-container .submit-area input{
+    border: none;
+    border-bottom: 1px solid #777777;
+    width: 280px;
+    height: 30px;
+    padding: 7px 0px;
+}
+.signup-container .email-container .submit-area .submit-button{
+    width: 97px;
+    height: 30px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup-container .email-container .submit-area .submit-button p{
+    color: white;
+    font-family: "Montserrat";
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 10px;
+        letter-spacing: 1.1px;
+        
+        text-transform: uppercase;
 }
