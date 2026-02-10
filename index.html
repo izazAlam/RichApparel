@@ -11,11 +11,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <!-- stylesheet -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -55,6 +57,19 @@
     <!-- main -->
     <!-- hero -->
     <div class="hero-container">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="img/heros/hero-01.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/heros/hero-02.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/heros/hero-03.jpg" alt="">
+                </div>
+            </div>
+        </div>
         <div class="text-area">
             <div class="text">Our Latest collaboration is here</div>
             <div class="shop-now">
@@ -62,8 +77,8 @@
             </div>
         </div>
         <div class="buttons">
-            <button class="left-arrow"><img src="img/left-arrow.png" alt=""></button>
-            <button class="right-arrow"><img src="img/right-arrow.png" alt=""></button>
+            <button class="left-arrow swiper-button-prev"><img src="img/left-arrow.png" alt=""></button>
+            <button class="right-arrow swiper-button-next"><img src="img/right-arrow.png" alt=""></button>
         </div>
     </div>
     <!-- collection -->
@@ -177,6 +192,10 @@
         <div class="right">RichApparel</div>
     </div>
 
+    <!-- Swiper JS -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <!-- Javascipt -->
+    <script src="js/ap.js"></script>
 </body>
 
 </html>

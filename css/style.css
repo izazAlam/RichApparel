@@ -70,7 +70,29 @@ body{
     list-style: none;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 20px;
+    height: 20px;
+}
+.navbar .menu .menu-item {
+    position: relative;
+
+}
+
+.navbar .menu .menu-item::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    width: 0%;
+    height: 1px;
+    background: #000;
+    transform: translateX(-50%);
+    transition:  0.3s ease;
+}
+
+.navbar .menu .menu-item:hover::after {
+    width: 100%;
 }
 .navbar .menu .menu-items .menu-item a{
     font-family: "Montserrat";
@@ -88,7 +110,6 @@ body{
         justify-content: space-between;
         align-items: center;
         gap: 15px;
-        
 }
 .navbar .links .link-items .link-item a{
     text-decoration: none;
@@ -118,28 +139,28 @@ body{
     max-width: 1400px;
     margin: 0 auto;
     overflow: hidden;
-    background-image: url('img/hero.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 0 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 
 }
+.mySwiper {
+    width: 100%;
+    height: 100%;
+}
+.mySwiper .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
-.hero-container .text-area{
+.hero-container .text-area {
     position: absolute;
-        z-index: 1;
-        padding-left: 10%;
-            height: 148px;
-            
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            
-            
+    z-index: 2;
+    padding-left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 148px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .hero-container .text-area .text{
     font-family: "Montserrat";
@@ -172,7 +193,6 @@ body{
 .hero-container .buttons {
     position: absolute;
     z-index: 2;
-    padding: 0 20px;
     top: 50%;
     left: 0;
     right: 0;
@@ -256,10 +276,10 @@ body{
     
 }
 .collections-wrapper button:first-child{
-    left: -px;
+    left: -66px;
 }
 .collections-wrapper button:last-child{
-    right: 0px;
+    right: -66px;
 }
 .collections-wrapper .carousel{
     white-space: nowrap;
@@ -288,7 +308,7 @@ body{
         max-width: 1400px;
         margin: 40px auto;
         overflow: hidden;
-        background-image: url('img/cta.png');
+        background-image: url('../img/cta.png');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
