@@ -1,0 +1,220 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "tag": "SUMMER ESSENTIALS",
+      "image": "img/cashmere/cashmere-collection-01.png",
+      "title": "Earl-Grey Cotton-Cashmere",
+      "price": 275,
+      "currency": "£",
+      "colorsAvailable": true
+    },
+    {
+      "id": 2,
+      "tag": "SUMMER ESSENTIALS",
+      "image": "img/cashmere/cashmere-collection-02.png",
+      "title": "Orange-Gloss Open Polo Neck",
+      "price": 156,
+      "currency": "£",
+      "colorsAvailable": true
+    },
+    {
+      "id": 3,
+      "tag": "SUMMER ESSENTIALS",
+      "image": "img/cashmere/cashmere-collection-03.png",
+      "title": "Maroon Cotton-Cashmere Dress",
+      "price": 211,
+      "currency": "£",
+      "colorsAvailable": true
+    },
+    {
+      "id": 4,
+      "tag": "SUMMER ESSENTIALS",
+      "image": "img/cashmere/cashmere-collection-04.png",
+      "title": "Earl-Red Slouchy Cashmere",
+      "price": 405,
+      "currency": "£",
+      "colorsAvailable": true
+    },
+    {
+      "id": 5,
+      "tag": "SUMMER ESSENTIALS",
+      "image": "img/cashmere/cashmere-collection-05.png",
+      "title": "White Open Neck",
+      "price": 125,
+      "currency": "£",
+      "colorsAvailable": true
+    },
+    {
+      "id": 6,
+      "tag": "SUMMER ESSENTIALS",
+      "image": "img/cashmere/cashmere-collection-06.png",
+      "title": "Earl-Black Open Polo Neck",
+      "price": 235,
+      "currency": "£",
+      "colorsAvailable": true
+    },
+    {
+      "id": 7,
+      "tag": "SUMMER ESSENTIALS",
+      "image": "img/cashmere/cashmere-collection-07.png",
+      "title": "Black-Gloss Cotton-Cashmere Dress",
+      "price": 265,
+      "currency": "£",
+      "colorsAvailable": true
+    },
+    {
+      "id": 8,
+      "tag": "SUMMER ESSENTIALS",
+      "image": "img/cashmere/cashmere-collection-08.png",
+      "title": "Earl-Silver Cotton-Cashmere Shorts",
+      "price": 175,
+      "currency": "£",
+      "colorsAvailable": true
+    },
+    {
+      "id": 9,
+      "tag": "SUMMER ESSENTIALS",
+      "image": "img/cashmere/cashmere-collection-09.png",
+      "title": "Cotton-Cashmere Tank Top",
+      "price": 125,
+      "currency": "£",
+      "colorsAvailable": true
+    },
+    {
+      "id": 10,
+      "tag": "SUMMER ESSENTIALS",
+      "image": "img/cashmere/cashmere-collection-10.png",
+      "title": "Black-Gloss Cotton-Cashmere",
+      "price": 212,
+      "currency": "£",
+      "colorsAvailable": true
+    },
+    {
+      "id": 11,
+      "tag": "SUMMER ESSENTIALS",
+      "image": "img/cashmere/cashmere-collection-11.png",
+      "title": "Blue Cotton-Cashmere T-Shirt",
+      "price": 275,
+      "currency": "£",
+      "colorsAvailable": true
+    },
+    {
+      "id": 12,
+      "tag": "SUMMER ESSENTIALS",
+      "image": "img/cashmere/cashmere-collection-12.png",
+      "title": "Black-Gloss Slouchy Cashmere",
+      "price": 125,
+      "currency": "£",
+      "colorsAvailable": true
+    },
+    {
+      "id": 13,
+      "tag": "SUMMER ESSENTIALS",
+      "image": "img/cashmere/cashmere-collection-13.png",
+      "title": "Blue Cotton-Cashmere Shorts",
+      "price": 175,
+      "currency": "£",
+      "colorsAvailable": true
+    },
+    {
+      "id": 14,
+      "tag": "SUMMER ESSENTIALS",
+      "image": "img/cashmere/cashmere-collection-14.png",
+      "title": "Blue-Yellow Cashmere-Cotton",
+      "price": 215,
+      "currency": "£",
+      "colorsAvailable": false
+    },
+    {
+      "id": 15,
+      "tag": "SUMMER ESSENTIALS",
+      "image": "img/cashmere/cashmere-collection-15.png",
+      "title": "Earl-Black Cotton-Cashmere",
+      "price": 215,
+      "currency": "£",
+      "colorsAvailable": true
+    },
+    {
+      "id": 16,
+      "tag": "",
+      "image": "img/cashmere/cashmere-collection-16.png",
+      "title": "Cream Care Bears Sun Burst Wool",
+      "price": 275,
+      "currency": "£",
+      "colorsAvailable": false
+    },
+    {
+      "id": 17,
+      "tag": "",
+      "image": "img/cashmere/cashmere-collection-17.png",
+      "title": "Green Care-A-Lot Wool-Cashmere",
+      "price": 125,
+      "currency": "£",
+      "colorsAvailable": false
+    },
+    {
+      "id": 18,
+      "tag": "",
+      "image": "img/cashmere/cashmere-collection-18.png",
+      "title": "Sun Flower Wool-Cashmere",
+      "price": 205,
+      "currency": "£",
+      "colorsAvailable": false
+    },
+    {
+      "id": 19,
+      "tag": "",
+      "image": "img/cashmere/cashmere-collection-19.png",
+      "title": "White Funshine Bear Wool-Cashmere",
+      "price": 125,
+      "currency": "£",
+      "colorsAvailable": true
+    },
+    {
+      "id": 20,
+      "tag": "",
+      "image": "img/cashmere/cashmere-collection-20.png",
+      "title": "White Wool-Cashmere Track",
+      "price": 365,
+      "currency": "£",
+      "colorsAvailable": false
+    },
+    {
+      "id": 21,
+      "tag": "",
+      "image": "img/cashmere/cashmere-collection-21.png",
+      "title": "White Funshine Bear Wool-Cashmere",
+      "price": 275,
+      "currency": "£",
+      "colorsAvailable": true
+    },
+    {
+      "id": 22,
+      "tag": "",
+      "image": "img/cashmere/cashmere-collection-22.png",
+      "title": "White Cheer Bear Pocket Wool",
+      "price": 120,
+      "currency": "£",
+      "colorsAvailable": false
+    },
+    {
+      "id": 23,
+      "tag": "",
+      "image": "img/cashmere/cashmere-collection-23.png",
+      "title": "Red Good Vibes Care Bear",
+      "price": 235,
+      "currency": "£",
+      "colorsAvailable": false
+    },
+    {
+      "id": 24,
+      "tag": "",
+      "image": "img/cashmere/cashmere-collection-24.png",
+      "title": "White Grumpy Bear Striped",
+      "price": 275,
+      "currency": "£",
+      "colorsAvailable": false
+    }
+  ]
+}
