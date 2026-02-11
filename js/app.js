@@ -1,7 +1,8 @@
 
-  let productsData = [];
+let productsData = [];
 let currentPage = 1;
 const productsPerPage = 9;
+const centerContainer = document.querySelector(".center-container");
 
 fetch("products.json")
   .then(res => res.json())
@@ -45,10 +46,17 @@ function renderProducts() {
     container.appendChild(card);
   });
 }
-
+function scrollToCenterContainer() {
+    const topPos = centerContainer.getBoundingClientRect().top + window.scrollY - 50; // 50px offset
+    window.scrollTo({
+        top: topPos,
+        behavior: "smooth"
+    });
+}
 function renderPagination() {
   const totalPages = Math.ceil(productsData.length / productsPerPage);
   const pagination = document.querySelector(".pagination");
+
 
   const oldButtons = pagination.querySelectorAll("button");
   oldButtons.forEach(btn => btn.remove());
@@ -65,8 +73,8 @@ function renderPagination() {
       currentPage = i;
       renderProducts();
       renderPagination();
+      scrollToCenterContainer();
     });
-
     pagination.insertBefore(button, rightArrow);
   }
 }
@@ -76,6 +84,7 @@ document.querySelector(".pagination-left").addEventListener("click", () => {
     currentPage--;
     renderProducts();
     renderPagination();
+    scrollToCenterContainer()
   }
 });
 
@@ -85,5 +94,6 @@ document.querySelector(".pagination-right").addEventListener("click", () => {
     currentPage++;
     renderProducts();
     renderPagination();
+    scrollToCenterContainer()
   }
 });
