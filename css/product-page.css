@@ -143,11 +143,10 @@ body {}
 
 }
 .product-preview-container{
-    display: flex;
-    flex-wrap: wrap;
-    width: 954px;
+    display: grid;
+    grid-template-rows: 701px 701px;
+    grid-template-columns: 467px 467px;
     gap: 20px;
-    justify-items: ;
 }
 .product-preview-container .product-preview img{
     width: 467px;
