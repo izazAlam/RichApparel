@@ -9,7 +9,8 @@
 
 }
 body{
-        
+    max-width: 1440px;   
+     margin: 0 auto;
 }
 
 /* +===================  Preheading ========================*/
@@ -55,6 +56,10 @@ body{
     text-transform: uppercase;
     cursor: pointer;
 
+}
+.navbar .logo a{
+    text-decoration: none;
+    color: #000;
 }
 .navbar .logo span{
         font-family: "Montserrat";
